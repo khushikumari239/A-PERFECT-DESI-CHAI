@@ -1,0 +1,25 @@
+.ingredient-card {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(102, 51, 0, 0.2);
+  width: 150px;
+}
+
+.ingredient-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.ingredient-card h3 {
+  font-size: 16px;
+  color: #442200;
+}
+
+.ingredient-card p {
+  font-size: 14px;
+  color: #884400;
+}
