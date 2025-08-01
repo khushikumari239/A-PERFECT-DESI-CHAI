@@ -1,0 +1,72 @@
+/* Outer white background */
+.outer-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(199, 127, 127);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Phone-like container with bg image */
+.mobile-wrapper {
+  width: 368px;
+  height: 700px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Content glassy card inside */
+.content {
+  background-color: rgba(201, 187, 187, 0.15);
+  backdrop-filter: blur(8px);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 260px;
+}
+
+/* Image */
+.tea-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+
+/* Step text */
+.step-text {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  flex: 1;
+  padding: 10px 0;
+  background-color: #b65959;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #a54848;
+}
