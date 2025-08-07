@@ -1,50 +1,66 @@
-/* I want a front or home page which says start brewing a button then A good morning big cozy vibe message
-then a mesage says A-PERFECT DESI CHAIII */
-.front-screen {
-  background-size: cover;
-  background-position: center;
+/* Outer full-page wrapper */
+.outer-wrapper {
+  width: 100vw;
   height: 100vh;
-  width: 100%;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
 }
 
-.card-container {
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 30px;
-  padding: 40px 20px;
-  width: 300px;
+/* Mobile-shaped container with background image */
+.mobile-wrapper {
+  width: 368px;
+  height: 700px;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Inner card-like area */
+.home-content {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px 25px;
   text-align: center;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
-.morning-text {
-  font-size: 1.2rem;
-  color: #e07c24;
-  margin-bottom: 10px;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.main-heading {
-  font-size: 1.6rem;
+/* Main greeting */
+.greeting {
+  font-size: 28px;
   font-weight: bold;
-  color: #5c4033;
-  margin-bottom: 20px;
+  color: #fff;
+  margin-bottom: 15px;
+  font-family: 'Georgia', serif;
 }
 
+/* Subcaption */
+.subcaption {
+  font-size: 16px;
+  color: #eee;
+  margin-bottom: 40px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/* Start button */
 .start-btn {
-  background-color: #e07c24;
+  padding: 12px 20px;
+  background-color: #b65959;
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 25px;
-  font-size: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: 0.3s;
 }
 
 .start-btn:hover {
-  background-color: #c96b1e;
+  background-color: #a54848;
 }
