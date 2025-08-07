@@ -2,7 +2,7 @@
   "name": "chai-mate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://khushikumari239.github.io/A-Perfect-DESI-CHAI/chai-mate",
+  "homepage": "https://khushikumari239.github.io/A-Perfect-DESI-CHAI",
 
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
