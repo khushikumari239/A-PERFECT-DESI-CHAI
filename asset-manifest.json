@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/A-Perfect-DESI-CHAI/static/css/main.187ae8b5.css",
-    "main.js": "/A-Perfect-DESI-CHAI/static/js/main.72abdbf9.js",
+    "main.js": "/A-Perfect-DESI-CHAI/static/js/main.40c0d307.js",
     "static/media/bg.png": "/A-Perfect-DESI-CHAI/static/media/bg.15e7fa0da1e1e74b65c1.png",
     "static/media/step5.png": "/A-Perfect-DESI-CHAI/static/media/step5.8c56fc5be08829cc3795.png",
     "static/media/step1.png": "/A-Perfect-DESI-CHAI/static/media/step1.58a6d921e0d2959f9d26.png",
@@ -12,10 +12,10 @@
     "static/media/step6.png": "/A-Perfect-DESI-CHAI/static/media/step6.9c14fc844826f0489519.png",
     "index.html": "/A-Perfect-DESI-CHAI/index.html",
     "main.187ae8b5.css.map": "/A-Perfect-DESI-CHAI/static/css/main.187ae8b5.css.map",
-    "main.72abdbf9.js.map": "/A-Perfect-DESI-CHAI/static/js/main.72abdbf9.js.map"
+    "main.40c0d307.js.map": "/A-Perfect-DESI-CHAI/static/js/main.40c0d307.js.map"
   },
   "entrypoints": [
     "static/css/main.187ae8b5.css",
-    "static/js/main.72abdbf9.js"
+    "static/js/main.40c0d307.js"
   ]
 }
